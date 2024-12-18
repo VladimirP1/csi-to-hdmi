@@ -1,0 +1,222 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="clk_byte" trig_type="0" storage_depth="1024" window_num="1" capture_amount="1024" implementation="0" trigger_pos="60" module_name="top" force_trigger_by_falling_edge="false" capture_init_data_enabled="false">
+        <SignalList>
+            <Signal capture_enable="true">ready</Signal>
+            <Bus capture_enable="true" name="mipi_rx/O_ECC[7:0]">
+                <Signal>mipi_rx/O_ECC[7]</Signal>
+                <Signal>mipi_rx/O_ECC[6]</Signal>
+                <Signal>mipi_rx/O_ECC[5]</Signal>
+                <Signal>mipi_rx/O_ECC[4]</Signal>
+                <Signal>mipi_rx/O_ECC[3]</Signal>
+                <Signal>mipi_rx/O_ECC[2]</Signal>
+                <Signal>mipi_rx/O_ECC[1]</Signal>
+                <Signal>mipi_rx/O_ECC[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="mipi_rx/O_WC[15:0]">
+                <Signal>mipi_rx/O_WC[15]</Signal>
+                <Signal>mipi_rx/O_WC[14]</Signal>
+                <Signal>mipi_rx/O_WC[13]</Signal>
+                <Signal>mipi_rx/O_WC[12]</Signal>
+                <Signal>mipi_rx/O_WC[11]</Signal>
+                <Signal>mipi_rx/O_WC[10]</Signal>
+                <Signal>mipi_rx/O_WC[9]</Signal>
+                <Signal>mipi_rx/O_WC[8]</Signal>
+                <Signal>mipi_rx/O_WC[7]</Signal>
+                <Signal>mipi_rx/O_WC[6]</Signal>
+                <Signal>mipi_rx/O_WC[5]</Signal>
+                <Signal>mipi_rx/O_WC[4]</Signal>
+                <Signal>mipi_rx/O_WC[3]</Signal>
+                <Signal>mipi_rx/O_WC[2]</Signal>
+                <Signal>mipi_rx/O_WC[1]</Signal>
+                <Signal>mipi_rx/O_WC[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="mipi_rx/O_VC[1:0]">
+                <Signal>mipi_rx/O_VC[1]</Signal>
+                <Signal>mipi_rx/O_VC[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="mipi_rx/O_DT[5:0]">
+                <Signal>mipi_rx/O_DT[5]</Signal>
+                <Signal>mipi_rx/O_DT[4]</Signal>
+                <Signal>mipi_rx/O_DT[3]</Signal>
+                <Signal>mipi_rx/O_DT[2]</Signal>
+                <Signal>mipi_rx/O_DT[1]</Signal>
+                <Signal>mipi_rx/O_DT[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="mipi_rx/O_PAYLOAD[31:0]">
+                <Signal>mipi_rx/O_PAYLOAD[31]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[30]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[29]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[28]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[27]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[26]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[25]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[24]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[23]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[22]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[21]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[20]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[19]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[18]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[17]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[16]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[15]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[14]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[13]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[12]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[11]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[10]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[9]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[8]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[7]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[6]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[5]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[4]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[3]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[2]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[1]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="mipi_rx/O_PAYLOAD_DV[3:0]">
+                <Signal>mipi_rx/O_PAYLOAD_DV[3]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD_DV[2]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD_DV[1]</Signal>
+                <Signal>mipi_rx/O_PAYLOAD_DV[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">mipi_rx/I_READY</Signal>
+            <Signal capture_enable="true">mipi_rx/O_SP_EN</Signal>
+            <Signal capture_enable="true">mipi_rx/O_LP_EN</Signal>
+            <Signal capture_enable="true">mipi_rx/O_LP_AV_EN</Signal>
+            <Signal capture_enable="true">mipi_rx/O_ECC_OK</Signal>
+            <Bus capture_enable="true" name="data_out0[7:0]">
+                <Signal>data_out0[7]</Signal>
+                <Signal>data_out0[6]</Signal>
+                <Signal>data_out0[5]</Signal>
+                <Signal>data_out0[4]</Signal>
+                <Signal>data_out0[3]</Signal>
+                <Signal>data_out0[2]</Signal>
+                <Signal>data_out0[1]</Signal>
+                <Signal>data_out0[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="data_out1[7:0]">
+                <Signal>data_out1[7]</Signal>
+                <Signal>data_out1[6]</Signal>
+                <Signal>data_out1[5]</Signal>
+                <Signal>data_out1[4]</Signal>
+                <Signal>data_out1[3]</Signal>
+                <Signal>data_out1[2]</Signal>
+                <Signal>data_out1[1]</Signal>
+                <Signal>data_out1[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="data_out2[7:0]">
+                <Signal>data_out2[7]</Signal>
+                <Signal>data_out2[6]</Signal>
+                <Signal>data_out2[5]</Signal>
+                <Signal>data_out2[4]</Signal>
+                <Signal>data_out2[3]</Signal>
+                <Signal>data_out2[2]</Signal>
+                <Signal>data_out2[1]</Signal>
+                <Signal>data_out2[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="data_out3[7:0]">
+                <Signal>data_out3[7]</Signal>
+                <Signal>data_out3[6]</Signal>
+                <Signal>data_out3[5]</Signal>
+                <Signal>data_out3[4]</Signal>
+                <Signal>data_out3[3]</Signal>
+                <Signal>data_out3[2]</Signal>
+                <Signal>data_out3[1]</Signal>
+                <Signal>data_out3[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">nrst</Signal>
+            <Signal capture_enable="true">ipkt</Signal>
+            <Signal capture_enable="true">ready_f</Signal>
+            <Bus capture_enable="true" name="cnt_cycles[19:0]">
+                <Signal>cnt_cycles[19]</Signal>
+                <Signal>cnt_cycles[18]</Signal>
+                <Signal>cnt_cycles[17]</Signal>
+                <Signal>cnt_cycles[16]</Signal>
+                <Signal>cnt_cycles[15]</Signal>
+                <Signal>cnt_cycles[14]</Signal>
+                <Signal>cnt_cycles[13]</Signal>
+                <Signal>cnt_cycles[12]</Signal>
+                <Signal>cnt_cycles[11]</Signal>
+                <Signal>cnt_cycles[10]</Signal>
+                <Signal>cnt_cycles[9]</Signal>
+                <Signal>cnt_cycles[8]</Signal>
+                <Signal>cnt_cycles[7]</Signal>
+                <Signal>cnt_cycles[6]</Signal>
+                <Signal>cnt_cycles[5]</Signal>
+                <Signal>cnt_cycles[4]</Signal>
+                <Signal>cnt_cycles[3]</Signal>
+                <Signal>cnt_cycles[2]</Signal>
+                <Signal>cnt_cycles[1]</Signal>
+                <Signal>cnt_cycles[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">init_calib_complete</Signal>
+            <Signal capture_enable="true">u_ddr3/cmd_ready</Signal>
+            <Signal capture_enable="true">pixbuf_inst/io_ddrRead_valid</Signal>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>mipi_rx/O_LP_AV_EN</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1">
+                <SignalList>
+                    <Signal>sot</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="2">
+                <SignalList>
+                    <Signal>sof</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="3"/>
+            <Trigger index="4">
+                <SignalList>
+                    <Signal>ipkt</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="R" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="R" value1="0" trigger="1"/>
+            <MatchUnit index="2" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="R" value1="0" trigger="2"/>
+            <MatchUnit index="3" enabled="0" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="R" value1="0" trigger="3"/>
+            <MatchUnit index="4" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="R" value1="0" trigger="4"/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Dynamic" ex_implementation="0">
+            <Expression>M0</Expression>
+            <Expression>M1</Expression>
+            <Expression>M2</Expression>
+            <Expression>M4</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>0000100110100000</GAO_ID>
+</GAO_CONFIG>
